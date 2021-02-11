@@ -1,0 +1,78 @@
+{
+    "id": "c70391ea-0b10-4ee9-b2b4-006d3fcad0cd",
+    "instanceId": "f0ee0b60-85c1-4f12-87c7-d4f4b35878fa",
+    "title": "Quick links",
+    "description": "Show a collection of links in a variety of layouts with options for icons, images, and audience targeting.",
+    "dataVersion": "2.2",
+    "properties": {
+        "items": [{
+                "sourceItem": {
+                    "itemType": 2,
+                    "fileExtension": "",
+                    "progId": ""
+                },
+                "thumbnailType": 2,
+                "id": 3,
+                "description": "",
+                "altText": "",
+                "rawPreviewImageMinCanvasWidth": 32767
+            },
+            {
+                "sourceItem": {
+                    "itemType": 2,
+                    "fileExtension": "",
+                    "progId": ""
+                },
+                "thumbnailType": 2,
+                "id": 2,
+                "description": "",
+                "altText": "",
+                "rawPreviewImageMinCanvasWidth": 32767
+            }
+        ],
+        "isMigrated": true,
+        "layoutId": "Button",
+        "shouldShowThumbnail": true,
+        "imageWidth": 100,
+        "buttonLayoutOptions": {
+            "showDescription": false,
+            "buttonTreatment": 2,
+            "iconPositionType": 2,
+            "textAlignmentVertical": 2,
+            "textAlignmentHorizontal": 2,
+            "linesOfText": 1
+        },
+        "listLayoutOptions": {
+            "showDescription": false,
+            "showIcon": true
+        },
+        "waffleLayoutOptions": {
+            "iconSize": 3,
+            "onlyShowThumbnail": true
+        },
+        "hideWebPartWhenEmpty": true,
+        "dataProviderId": "QuickLinks",
+        "webId": "{siteid}",
+        "siteId": "{sitecollectionid}",
+        "pane_link_button": 0
+    },
+    "serverProcessedContent": {
+        "htmlStrings": {},
+        "searchablePlainTexts": {
+            "title": "Agency Sites",
+            "items[0].title": "Bridge",
+            "items[1].title": "Case Management "
+        },
+        "imageSources": {},
+        "links": {
+            "baseUrl": "https://{fqdn}{site}",
+            "items[0].sourceItem.url": "https://bridge.sos.ga.gov/_layouts/15/SOS/Bridge/SignIn.aspx?ReturnUrl=%2f_layouts%2f15%2fAuthenticate.aspx%3fSource%3d%252FSitePages%252FHome%252Easpx&amp;Source=%2FSitePages%2FHome%2Easpx",
+            "items[1].sourceItem.url": "https://sp.sos.ga.gov/divisions/investigations/casemanagement/SitePages/Home.aspx"
+        },
+        "componentDependencies": {
+            "layoutComponentId": "706e33c8-af37-4e7b-9d22-6e5694d92a6f"
+        }
+    },
+    "dynamicDataPaths": {},
+    "dynamicDataValues": {}
+}

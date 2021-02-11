@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "initialize": "lerna bootstrap",
+    "localization": "lerna run --scope @starter-kit/shared-library build"
+  },
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  },
+  "dependencies": {
+    "date-fns": "^2.16.1"
+  }
+}
